@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "@nestjs/eslint",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "plugins": ["@typescript-eslint", "prettier"],
+  "rules": {
+    "prettier/prettier": "off",
+    "@typescript-eslint/explicit-function-return-type": "off"
+  }
+}
